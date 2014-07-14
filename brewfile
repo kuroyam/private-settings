@@ -1,0 +1,46 @@
+# ** `brew bundle`で実行 **
+
+# Brew Update
+update
+
+# Brew Upgrade
+upgrade
+
+# Add Repository
+tap homebrew/versions
+tap homebrew/binary
+tap phinze/homebrew-cask
+
+# Brew Cask
+install brew-cask
+
+# Packages
+install --disable-etcdir zsh
+install curl
+install wget
+install ruby-build
+install rbenv
+install tig
+install ant
+install lua
+install squirrel
+
+# Cask Packages
+cask install android-studio
+cask install iterm2
+cask install alfred
+cask install dash
+cask install evernote
+cask install dropbox
+cask install skype
+cask install firefox
+cask install google-chrome
+cask install virtualbox
+cask install vagrant
+cask install sublime-text
+cask install unity3d
+cask install google-japanese-ime
+cask install trailer
+
+# Clean
+cleanup
