@@ -41,6 +41,8 @@ cask install sublime-text
 cask install unity3d
 cask install google-japanese-ime
 cask install trailer
+cask install slack
+cask install karabiner
 
 # Clean
 cleanup
