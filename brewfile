@@ -24,6 +24,7 @@ install tig
 install ant
 install lua
 install squirrel
+install git-flow
 
 # Cask Packages
 cask install android-studio
